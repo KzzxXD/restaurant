@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Lato-Regular";
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+*{
+    padding:0;
+    margin: 0;
+}
+.container{
+    max-width:1100px;
+    margin: 0 auto;
+}
+body{
+    box-sizing: border-box;
+}
+#menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px;
+    font-family: "Lato-Regular", sans-serif;
+}
+#background-head{
+    background-image: url("../img/backgroundheader.png");
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+#background-abus{
+    margin-bottom: 150px;
+}
+
+.logo{
+    color: #3b3b3b;
+    font-size:25px;
+    text-transform: uppercase;
+}
+.navbar-nav{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-items: center;
+}
+.navbar-nav li a{
+    font-size:16px;
+    display: block;
+    padding:15px;
+    text-decoration: none;
+    color: #dc4f45;
+    transition: .5s ;
+}
+#next-color{
+    color: #3b3b3b;
+}
+.navbar-nav li a:hover{
+    background: rgba(112,23,55, .2);
+    border-radius:8px;
+}
+.text-header{
+    padding: 15.45%;
+    display: grid;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.text-header img{
+    margin: 25px auto;
+}
+.text-header p{
+    color: rgba(255,255,255, .7);
+    text-align: center;
+    margin-bottom: 50px;
+    font-size:18px;
+    font-family: "Lato-Regular", sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 1.4;
+}
+.button-header{
+
+    padding: 10px;
+    color: #fff;
+    width: 125px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 27px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    transition: 1s;
+}
+.button-header:hover{
+    background: rgba(112,23,55, .5);
+}
+.flex-us-itm {
+    display: grid;
+    grid-template-columns: 350px;
+    justify-content: space-around;
+    text-align: justify;
+    background: #eaeef7;
+    margin-left: 25px;
+}
+.flex-aboutus{
+    display: flex;
+    flex: 0 1 calc(25% - 30px * 11/6);
+    justify-content: center;
+    background: #eaeef7;
+    padding: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.flex-us-itm p{
+    font-family: "Lato-Regular", sans-serif;
+    color: rgba(0, 0, 0, 0.65);
+    font-size:15px;
+    line-height: 1.4;
+}
+.flex-us-itm h2{
+    margin-bottom: 30px;
+    font-family: "Lato-Regular", sans-serif;
+    color: #dc4f45;
+}
+.flex-us-itm img{
+    width: 100%;
+}
+.flex-find{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}

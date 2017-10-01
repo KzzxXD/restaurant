@@ -1,0 +1,60 @@
+#background-signup{
+     background-image: url("../img/fullsize_distr.png");
+     background-attachment: fixed;
+     background-size: cover;
+     height:100vh;
+ }
+*{
+    margin: 0;
+    padding:0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.forma-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    text-align: center;
+    border: 2px solid #fff;
+    box-shadow: 1px 1px 25px #000;
+    padding: 25px;
+    background: rgba(0,0,0, .5);
+    font-family: "Lato-Regular", sans-serif;
+    color: #fff;
+    font-weight:900;
+    border-radius: 8px;
+}
+form input{
+    margin-bottom: 10px;
+    width:220px;
+    border-radius: 8px;
+}
+.button-form{
+    display: flex;
+    justify-content:center;
+    margin: 0 auto;
+    width:100px;
+    border: 1px solid #dc4f45;
+    padding:5px;
+    margin-top: 10px;
+    font-weight:900;
+    font-family: "Lato-Regular", sans-serif;
+    cursor: pointer;
+    transition: 1s;
+    background: #dc4f45;
+}
+#text-box{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.button-form:hover{
+    border: 1px solid #fff;
+    background: #fff;
+}

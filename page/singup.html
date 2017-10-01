@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/signup.css">
+    <script>
+
+    </script>
+</head>
+<body>
+<section id="background-signup">
+    <div class="container">
+        <div class="forma-sign">
+            <form action="" method="post" id="form">
+                <lable>Name<br>
+                    <input type="text" name="name" id="name">
+                </lable>
+                <br>
+                <lable><span>Last Name</span><br>
+                    <input type="text" name="LastName" id="LastName">
+                </lable>
+                <br>
+                <lable>Password<br>
+                    <input type="password" name="password1" id="password1">
+                </lable>
+                <br>
+                <lable>RePassword<br>
+                    <input type="password" name="password2" id="password2">
+                </lable>
+                <br>
+                <lable>Email<br>
+                    <input type="email" name="email" id="email">
+                </lable>
+                <br>
+                <input type="button" value="Registr" onclick="signUp(document.getElementById('form'))" class="button-form">
+                <h1 id="text-box"></h1>
+            </form>
+
+
+
+
+
+            <!--<form action="" method="post" id="form">-->
+                <!--<input type="text" name="name" placeholder="name" id="name">-->
+                <!--<input type="password" name="password" id="password" placeholder="password">-->
+                <!--<input type="password" name="Repassword" id="password1" placeholder="RePassword">-->
+                <!--<input type="button" onclick="valid(document.getElementById('form'))"name="submit" value="gotovo">-->
+                <!--<h2 id="text-error"></h2>-->
+                <!--<h2 id="text-error1"></h2>-->
+            <!--</form>-->
+        </div>
+    </div>
+</section>
+<script src="signup.js"></script>
+</body>
+</html>
